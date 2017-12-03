@@ -1,0 +1,11 @@
+  dlaservice2:
+    image: dlaservice2
+    links:
+    - dlaservice
+    ports:
+    - 8080:8091
+
+  dlaservice:
+    image: dlaservice
+    ports:
+    - 80:8080
