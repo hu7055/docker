@@ -14,3 +14,7 @@
 	5. Get the prod.tar and move to another environment
 	6. Docker load -i prod.tar
 	7. You can see the new docker image which is productionready
+
+# Docker-compose
+	1.Run this command to download the latest version of Docker Compose:
+curl -L https://github.com/docker/compose/releases/download/1.17.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
